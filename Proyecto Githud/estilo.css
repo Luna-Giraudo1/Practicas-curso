@@ -1,0 +1,25 @@
+ul {
+    list-style: none; /*quitamos el estilo del listado ul*/
+    margin: 0; /*quitamos el margen externo*/
+    padding: 0; /*quitamos el padding margen interno*/
+    overflow: hidden; /*recorta-ajusta el contenido a la "caja contenedora*/
+    background-color: #333; /*color de fondo para el menu*/
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+li {
+    float: left;
+}
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+h1{
+    padding: 10px;
+    text-align: center;
+    font-size: 50px;
+}
